@@ -1,4 +1,5 @@
 import "./App.css";
+import Form from "./components/Form";
 import SaveButton from "./components/SaveButton";
 import StatusBar from "./components/StatusBar";
 
@@ -10,6 +11,9 @@ function App() {
       <hr />
       <StatusBar />
       <SaveButton />
+      <br />
+      <hr />
+      <Form />
     </>
   );
 }
